@@ -50,27 +50,33 @@ Event Data → PostgreSQL → Analytics → ML → Problem Detection → Recomme
 ## Quick Start
 
 ### 1. Install PostgreSQL 15+
+
 Download from [postgresql.org](https://www.postgresql.org/download/)
 
 ### 2. Create the database
+
 ```bash
 psql -U postgres -c "CREATE DATABASE ecom_analytics;"
 ```
 
 ### 3. Install Python dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 4. Configure database connection
+
 Edit `src/config.py` with your PostgreSQL credentials.
 
 ### 5. Setup database (creates tables + seeds data with Amazon Reviews)
+
 ```bash
 python setup_database.py
 ```
 
 ### 6. Run the application
+
 ```bash
 python main.py
 ```
@@ -93,10 +99,13 @@ python main.py
 ## Technology Stack
 
 | Layer | Technology |
-|-------|-----------|
+| ------- | ----------- |
 | Database | PostgreSQL 15+ |
 | Language | Python 3.11+ / 3.14 |
 | GUI | PySide6 (Qt for Python) |
 | Analytics & Data | Pandas, NumPy |
 | Machine Learning | Scikit-learn (RandomForest, TF-IDF, LogisticRegression, NaiveBayes) |
 | DB Connectivity | psycopg2-binary |
+
+License
+This project is developed for academic purposes at VIT as a 3rd-semester Computer Engineering project.
