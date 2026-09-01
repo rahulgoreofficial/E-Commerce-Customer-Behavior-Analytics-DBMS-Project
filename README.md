@@ -107,5 +107,6 @@ python main.py
 | Machine Learning | Scikit-learn (RandomForest, TF-IDF, LogisticRegression, NaiveBayes) |
 | DB Connectivity | psycopg2-binary |
 
-License
+## License
+
 This project is developed for academic purposes at VIT as a 3rd-semester Computer Engineering project.
